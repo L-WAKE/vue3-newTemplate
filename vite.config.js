@@ -32,7 +32,7 @@ export default defineConfig((config) => {
       proxy: {
         "/api": {
           // target: 'http://zbkservice.bigdata.192.168.10.216.nip.io:30080/',	//测试环境
-          target: "http://192.168.10.214:8801/", //214
+          // target: "https://www.fastmock.site/mock/74eef8436a20e6434087827975b8d780/myTest/",
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, "/ssa"),
         },

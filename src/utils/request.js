@@ -2,7 +2,9 @@ import axios from "axios";
 import qs from "qs";
 
 const http = axios.create({
-  baseURL: import.meta.env.VITE_BASE_URL,
+  baseURL:
+    "https://www.fastmock.site/mock/74eef8436a20e6434087827975b8d780/myTest/",
+  // baseURL: import.meta.env.VITE_BASE_URL,
   // timeout: 15000,
   headers: { "Content-Type": "application/json;charset=UTF-8" },
   withCredentials: true,

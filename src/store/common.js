@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { getPower } from "@/api/commonApi";
+// import { getPower } from "@/api/commonApi";
 
 export const commonStore = defineStore("common-store", {
   state: () => ({
@@ -29,7 +29,7 @@ export const commonStore = defineStore("common-store", {
     async getMenuTabs() {
       //获取菜单权限
       try {
-        const res = await getPower();
+        // const res = await getPower();
         if (res.status == 1) {
           return res.data.rolelimit || null;
         } else {
