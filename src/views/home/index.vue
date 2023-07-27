@@ -12,7 +12,7 @@
 
 <script setup>
 import { login, getInfo } from "@/api/commonApi";
-import { useI18n } from "vue-i18n"; //i18n.js的路径
+import { useI18n } from "vue-i18n";
 const { t } = useI18n();
 const $t = t;
 const postRequest = async () => {
