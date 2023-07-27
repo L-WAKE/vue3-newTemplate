@@ -20,12 +20,13 @@
     "qs": "^6.11.0",
     "screenfull": "^6.0.2",
     "vue": "^3.0.4",
+    "vue-i18n": "^9.2.2",
     "vue-router": "4.0.13"
   },
   "devDependencies": {
-    "vite": "^3.1.7",
+    "@vue/compiler-sfc": "^3.0.4",
     "sass": "^1.55.0",
     "sass-loader": "^13.1.0",
-    "@vue/compiler-sfc": "^3.0.4"
+    "vite": "^3.1.7"
   }
 }
