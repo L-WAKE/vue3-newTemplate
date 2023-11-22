@@ -6,7 +6,7 @@ export default defineConfig((config) => {
   const viteEnv = loadEnv(config.mode, `.env.${config.mode}`);
   const srcPath = fileURLToPath(new URL("./src", import.meta.url));
   const rootPath = fileURLToPath(new URL("./", import.meta.url));
-  console.log("2222222222", viteEnv);
+  console.log("viteEnv", viteEnv);
   console.log("3333333333", config);
   return {
     base: viteEnv.VITE_BASE_URL,
