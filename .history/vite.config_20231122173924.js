@@ -7,9 +7,9 @@ export default defineConfig((config) => {
   const srcPath = fileURLToPath(new URL("./src", import.meta.url));
   const rootPath = fileURLToPath(new URL("./", import.meta.url));
   console.log("viteEnv", viteEnv);
-  console.log("config", config);
+  console.log("3333333333", config);
   return {
-    base: config.mode == "dev" ? "/api" : "/ssa",
+    base: viteEnv.VITE_BASE_URL,
     resolve: {
       alias: {
         "@": srcPath,

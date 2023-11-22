@@ -9,7 +9,7 @@ export default defineConfig((config) => {
   console.log("viteEnv", viteEnv);
   console.log("config", config);
   return {
-    base: config.mode == "dev" ? "/api" : "/ssa",
+    base: viteEnv.VITE_BASE_URL,
     resolve: {
       alias: {
         "@": srcPath,
