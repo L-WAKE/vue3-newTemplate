@@ -13,6 +13,8 @@
 <script setup>
 import { login, getInfo } from "@/api/commonApi";
 import { useI18n } from "vue-i18n";
+
+console.log("8888888", import.meta.env);
 const { t } = useI18n();
 const $t = t;
 const postRequest = async () => {
