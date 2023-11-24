@@ -40,5 +40,6 @@ export default defineConfig((config) => {
         },
       },
     },
+    envPrefix: ["SYS_", "AUTH_", "VITE_"],
   };
 });
