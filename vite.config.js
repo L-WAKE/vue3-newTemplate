@@ -9,8 +9,8 @@ export default defineConfig((config) => {
   console.log("viteEnv", viteEnv);
   console.log("config", config);
   return {
-    // base: config.mode == "dev" ? "/api" : "/ssa",
-    base: "/webebus/",
+    base: config.mode == "dev" ? "/api/" : "/ssa/",
+    // base: "/webebus/",
     resolve: {
       alias: {
         "@": srcPath,
