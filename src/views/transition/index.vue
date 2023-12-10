@@ -6,6 +6,9 @@
     <br />
     <button @click="testFun">点击</button>
   </div>
+  <div>
+    我是第二个根节点
+  </div>
 </template>
 
 <script setup>
