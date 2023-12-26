@@ -2,13 +2,11 @@
   <div>
     <p>登录页</p>
     <br />
-    <span>测试</span>
+    <span>测试 </span>
     <br />
     <button @click="testFun">点击</button>
   </div>
-  <div>
-    我是第二个根节点
-  </div>
+  <div>我是第二个根节点</div>
 </template>
 
 <script setup>
